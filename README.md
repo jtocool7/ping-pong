@@ -1,15 +1,16 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ping Pong</title>
+<title>Ping Pong</title>
   <style>
-  
+  #pong{
+    border-radius:50px
+  }
   </style>
 </head>
 <body>
 
-<canvas id="pong" width="850
+<canvas id="pong"   width="850
   
 " height="650" ></canvas>
 
@@ -44,7 +45,7 @@
   const ball = {
   x : cvs.width/2,
   y : cvs.height/2,
-  radius : 25,
+  radius : 20,
   speed : 5,
   velocityX :5,
   velocityY :5,
